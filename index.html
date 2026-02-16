@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chartwell Partners</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+    
+    <nav class="navbar bg-body-tertiary" >
+    <div class="container-fluid">
+
+     <!-- Logo -->
+     <a class="navbar ms-3 reveal" href="">
+     <img src="https://chartwellpartners.com/wp-content/uploads/2021/05/logo.svg" alt="CP logo" width="230px" height="23px">
+     </a>
+    
+     <div class="d-flex align-items-center ms-auto gap-3">
+
+
+
+<!-- search bar --> 
+ <section class="searchBar">
+  <form class="form reveal">
+      <button>
+          <svg width="17" height="16" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="search">
+              <path d="M7.667 12.667A5.333 5.333 0 107.667 2a5.333 5.333 0 000 10.667zM14.334 14l-2.9-2.9" stroke="currentColor" stroke-width="1.333" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>   
+      </button>
+      <input class="input" placeholder="Search" required="" type="text">
+      <button class="reset" type="reset">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+      </button>
+  </form>
+ </section>
+
+
+    <!-- black mode -->
+     <button id="darkTheme" class="btn  d-flex align-items-center justify-content-center me-3 reveal" 
+        type="button" aria-label="Toggle dark mode" >
+       <svg xmlns="http://www.w3.org/2000/svg" width="28" height="22" fill="currentColor"
+           class="bi bi-moon-stars-fill" viewBox="0 0 16 16">
+          <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/>
+          <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/>
+       </svg>
+     </button>
+
+     </div>
+
+     
+    <!-- Toggler  -->
+    <button
+      class="navbar-toggler collapsed reveal " type="button" style="    border: 1px solid black;"
+      data-bs-toggle="collapse" data-bs-target="#navbarsExample01"
+      aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+
+
+    <!-- Navbar content -->
+    <div class="collapse navbar-collapse  reveal " id="navbarsExample01">
+      <ul class="navStyle navbar-nav me-auto mb-2">
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Our firm</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"> Expertise </a>
+
+          <ul class="dropdown-menu  ">
+            <li><a class="dropdown-item" href="#">Financial Services</a></li>
+            <li><a class="dropdown-item" href="#">Real Estate</a></li>
+          </ul>
+        </li>
+    
+
+       <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"> Services </a>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Executive Search</a></li>
+            <li><a class="dropdown-item" href="#">Board Services</a></li>
+            <li><a class="dropdown-item" href="#">Leadership Advisory</a></li>
+          </ul>
+        </li>  
+
+      <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+    </li>
+
+     </ul>
+    </div>
+
+  </div>
+</nav> 
+
+
+<!-- hero -->
+ <section class="hero reveal">
+  <img src="https://chartwellpartners.com/wp-content/uploads/2023/07/58_ChartwellTeamPortraits_03-29-23.jpg" alt="Chartwell Partners Team"/>
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content reveal delay-1">
+    <h1>
+      A retained executive search<br />
+      firm dedicated to identifying<br />
+      exceptional leaders.
+    </h1>
+  </div>
+</section>
+
+
+<!-- slider -->
+    <div class=" text-center bg-body-tertiary reveal delay-1"> 
+        <div class="barSlider  py-4 "> 
+            <p class=" col-lg-8 mx-auto lead mt-2"> Executive Search   &ensp;|    &ensp; Board Services   &ensp;  | &ensp;   Leadership  Advisory</p> 
+        </div>
+    </div>
+  
+</div>
+
+
+<!-- Expertise -->
+  <div class=" py-5 reveal delay-2" style=" background-color:#F5F6F8">
+    <div class="container">
+
+      <h2 class="industryHeader pb-3 px-5 ms-5">Industry Expertise</h2>
+
+      <!-- ROW -->
+      <div class=" px-5 d-flex align-items-start justify-content-between">
+
+        <!-- LEFT: paragraph -->
+        <p class="industryParag col-6 mb-0 ms-5">
+          With extensive training as senior partners of the largest global search firms,
+          we apply our in-depth industry knowledge to exceed our clients' expectations.
+        </p>
+
+        <!-- RIGHT: button -->
+        <button class="firmButton btn btn-outline-primary px-4 me-5" type="button">
+          MEET THE FIRM
+        </button>
+
+      </div>
+    </div>
+
+    <!-- services -->
+<div class="container pt-5 " >
+  <div class="row justify-content-evenly g-4 " >
+
+    <div class=" col-lg-5 ms-5 p-5 bg-body-tertiary border reveal delay-2" > 
+       <!-- icon -->
+        <div class="financialIcon feature-icon d-inline-flex align-items-center justify-content-center y bg-gradient fs-2 mb-5 p-2 " >
+			<img src="https://chartwellpartners.com/wp-content/uploads/2021/05/ico-financial.svg" alt="financial icon" title="ico-financial">
+		</div>
+
+      <h3 style=" font-family: Fira Sans, sans-serif ; font-size: 20px; " class="financialServ pb-3 fw-bold">Financial Services</h3> 
+        <ul class="FinancialServlist lh-lg">
+        <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg>      Commercial, Community and Private Banking
+        </li>
+
+        <li>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg>      Mortgage
+        </li>
+
+        <li>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg>    Wealth Management
+        </li>
+
+        <li>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg>     Fintech
+        </li>
+      </ul>
+        
+      <a href="#" class="icon-link">  See more
+      <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+     </svg>
+    </a>
+    </div>
+
+
+
+    <!-- icon -->
+    <div class="col-lg-5 me-5 p-5 bg-body-tertiary border reveal delay-2"> 
+        <div class="industrialIcon feature-icon d-inline-flex align-items-center justify-content-center y bg-gradient fs-2 mb-5 p-2 ">
+			<img src="https://chartwellpartners.com/wp-content/uploads/2021/05/ico-industrial.svg" alt="industrial icon" title="ico-industrial" >
+	</div>
+
+      <h3 style=" font-family: Fira Sans, sans-serif; font-size: 20px;" class="realEstate pb-3 fw-bold">Real Estate</h3> 
+       <ul class="realEstateList lh-lg" >
+        <li>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg> Homebuilders</li>
+        <li>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg>Single Family Rental</li>
+        <li>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg>   Private</li>
+        <li> 
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg>Institutional</li>
+      </ul>
+    
+      <a href="#" class="icon-link">  See more
+      <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+     </svg>
+    </a>
+
+    </div>
+  </div>
+</div>
+  </div>
+
+
+
+
+<!-- about us -->
+ <section class="aboutUs">
+ <div class="container p-5 ">
+  <div class="row featurette about-animate ">
+
+   <div class="col-lg-7 text-box reveal delay-1 pt-2">
+    <h2 class="featurette-heading fw-normal lh-1 pb-3 aboutUsHeading" style=" font-family: DM Serif Text, serif;">About Us
+      <span class="text-body-tertiary" style=" font-family: DM Serif Text, serif;">It’ll blow your mind.</span>
+    </h2> 
+    <p class="lead" >The partners of The Chartwell Partnership are qualified chartered certified accountants and long standing members of ACCA. With a robust business background gleaned at the sharp end, our partners are well placed to dispense business advice for small and medium businesses, as well as act as business consultants.
+    <br> <br>Specialisms at Chartwell Partnership include accounts preparation, personal and business tax advice, charity registration and accountancy, advice for property companies as well as bookkeeping, PAYE, VAT and general business advice for small and medium businesses.
+  </div> 
+   <div class="col-md-5 p-5 image-box reveal delay-2">
+     <img src="./assets/pic1.png" class="about-img">
+  </div> 
+</div>
+
+  <hr class="featurette-divider reveal delay-1">
+
+</div>
+</section>
+
+
+
+<!-- insights -->
+ <section class="insightsSection">
+<div class="container px-4 py-4 " id="custom-cards" > 
+  <h2 class="pb-1 reveal delay-1" style=" font-family: DM Serif Text, serif; font-size: 40px;">Our Latest Insights</h2> 
+  <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-4"> 
+    <div class="col"> 
+      <div class="insightsImg card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg reveal delay-2" style="background-image: url('assets/australia.png');"> 
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"> 
+          <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Australian Tax on Investments for Expats</h4> 
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto"> 
+           </li> 
+
+          <li class="d-flex align-items-center me-3"> 
+           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411"/>
+           </svg>
+            <small class="ms-1">Australia</small> 
+          </li> 
+          
+          <li class="d-flex align-items-center"> 
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+            <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
+           <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+          </svg>
+            <small class="ms-2">April, 2025</small> 
+          </li> 
+        </ul> 
+      </div> 
+    </div> 
+  </div>
+
+       <div class="col">
+         <div class="insightsImg card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg reveal delay-3" style="background-image: url('assets/uk.jpg');"> 
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"> 
+            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Owning UK Property in a company </h4> 
+            <ul class="d-flex list-unstyled mt-auto"> 
+              <li class="me-auto"> 
+              </li> 
+              <li class="d-flex align-items-center me-3"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411"/>
+               </svg>
+                <small class="ms-1">United Kingdom</small>
+             </li>
+              <li class="d-flex align-items-center"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                  <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
+                  <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                </svg> 
+                <small class="ms-2">July 2025</small>
+              </li> 
+            </ul> 
+          </div> 
+        </div> 
+      </div> 
+      
+      <div class="col"> 
+        <div class="insightsImg card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg reveal delay-4" style="background-image: url('assets/Singaporee.webp');"> 
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1"> 
+            <h4 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">CPF for Singapore Expats</h4> 
+            <ul class="d-flex list-unstyled mt-auto"> 
+              <li class="me-auto"> 
+              </li> 
+              <li class="d-flex align-items-center me-3"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411"/>
+                </svg>
+                <small class="ms-1">Singapore</small> 
+              </li> 
+              <li class="d-flex align-items-center"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar3" viewBox="0 0 16 16">
+                  <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
+                  <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                </svg>
+                <small class="ms-2">October 2025</small> 
+              </li> 
+            </ul> 
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+  </div>
+ </section>
+
+
+
+  <!-- Our Team -->
+<div class=" bg-body-tertiary rounded-3" >
+  <div class=" container py-5" >
+      <h2 class="industryHeader pb-3 px-5 ms-5  team-title reveal reveal-right" style="font-size: 40px; ">Our Team</h2>
+
+
+    <div class="container">
+  <div class="row g-1 reveal delay-2">
+
+    <div class="col-lg-3 col-md-6 ">
+      <div class="custom-card mb-5 reveal delay-3">
+        <img src="https://chartwellpartners.com/wp-content/uploads/2021/05/CWP-Photos-SeanOneal-Opt.jpg" alt="Sean Oneal">
+
+        <div class="card-content reveal reveal-right">
+          <p class="fs-5 fw-bold mb-1 team-name" >Sean O’Neal</p>
+          <p class="mb-1" style="font-size: 12px;">Financial Services / Real Estate</p>
+          <a href="#" class="fw-bold">View Profile</a>
+        </div>
+      </div>
+    </div>
+  
+
+     <div class="col-lg-3 col-md-6 ">
+      <div class="custom-card  reveal delay-3">
+        <img src="https://chartwellpartners.com/wp-content/uploads/2021/05/Petty-Scott-e1665011450760.jpg" srcset="https://chartwellpartners.com/wp-content/uploads/2021/05/Petty-Scott-e1665011450760.jpg 2x" alt="Petty, Scott" title="">
+
+        <div class="card-content reveal reveal-right">
+          <p class="fs-5 fw-bold mb-1 team-name" >J. Scott Petty</p>
+          <p class="mb-1" style="font-size: 12px;">Financial Services / Real Estate</p>
+          <a href="#" class="fw-bold">View Profile</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 ">
+      <div class="custom-card  reveal delay-3">
+        <img src="https://chartwellpartners.com/wp-content/uploads/2022/09/julie_bell.jpg" srcset="https://chartwellpartners.com/wp-content/uploads/2022/09/julie_bell.jpg 2x" alt="julie_bell" title="">
+
+        <div class="card-content reveal reveal-right">
+          <p class="fs-5 fw-bold mb-1 team-name">Julie Bell, PhD</p>
+          <p class="mb-1" style="font-size: 12px;">Leadership Advisory</p>
+          <a href="#" class="fw-bold">View Profile</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6">
+      <div class="custom-card  reveal delay-3">
+        <img src="https://chartwellpartners.com/wp-content/uploads/2025/10/Harman_Julia_2025b.jpg" srcset="https://chartwellpartners.com/wp-content/uploads/2025/10/Harman_Julia_2025b.jpg 2x" alt="" title="Harman_Julia_2025b">
+       
+        <div class="card-content reveal reveal-right reveal delay-4">
+          <p class="fs-5 fw-bold mb-1 team-name" >Julia Harman</p>
+          <p class="mb-1" style="font-size: 12px;">Leadership Advisory</p>
+          <a href="#" class="fw-bold">View Profile</a>
+        </div>
+      </div>
+    </div>
+
+
+     <div class="col-lg-3 col-md-6 pb-5">
+      <div class="custom-card  reveal delay-3">
+        <img src="https://chartwellpartners.com/wp-content/uploads/2022/10/Adams-McCall-1-1-e1665018545458.jpg" srcset="https://chartwellpartners.com/wp-content/uploads/2022/10/Adams-McCall-1-1-e1665018545458.jpg 2x" alt="Adams, McCall (1)" title="">
+        
+        <div class="card-content reveal reveal-right reveal delay-4">
+          <p class="fs-5 fw-bold mb-1 team-name">McCall Adams</p>
+          <p class="mb-1" style="font-size: 12px;">Financial Services / Real Estate</p>
+          <a href="#" class="fw-bold">View Profile</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    </div>
+</div>
+
+
+<!-- Testimonials -->
+<div id="myCarousel" class=" carousel slide mb-6 pointer-event reveal delay-1" data-bs-ride="carousel"> 
+  <div class="carousel-indicators"> 
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button> 
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button> 
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button> 
+  </div> 
+  <div class="carousel-inner"> 
+<div class="carousel-item active">
+  <img src="./assets/real-estate-agent.jpeg">     
+
+      <div class="container"> 
+        <div class="carousel-caption text-start"> 
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+           <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>
+          </svg>
+          <h2 style=" font-family: DM Serif Text, serif;"> I was recommended to use The Chartwell Partnership by a friend and have been very pleased with all the professional help, advice and support I have received.</h2> 
+          <p class="opacity-75">- Jenny Wilson</p> 
+        </div> 
+      </div>
+      </div> 
+        <div class="carousel-item active"> 
+         <img src="./assets/pic2.jpg">     
+
+            <div class="container"> 
+              <div class="carousel-caption"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                 <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>
+                </svg>
+                <h2 style=" font-family: DM Serif Text, serif;">I've found Chartwell to be very helpful, accommodating, knowledgeable and approachable. </h2> 
+                <p>- Hill Fort</p> 
+              </div> </div> </div> 
+          
+          <div class="carousel-item"> 
+            <img src="./assets/young_businesswoman_in_a_meeting_with_real_estate_agent.jpg">     
+
+              <div class="container">
+                 <div class="carousel-caption text-end"> 
+                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                     <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>
+                      </svg>
+                  <h2 style="  font-family: DM Serif Text, serif;">A low-key firm that always delivers better than one expects. Qualified, fast response and reasonable fees.</h2> 
+                  <p>- Dora Nakou</p>
+                </div> 
+              </div> 
+            </div> 
+          </div>
+                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev"> 
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+                  <span class="visually-hidden">Previous</span> 
+                </button> 
+                  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next"> 
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+                    <span class="visually-hidden">Next</span> 
+                  </button> </div>
+
+
+<!-- FAQ -->
+<section class="faq-section py-5 ">
+  <div class="container text-center mb-5 py-4 ">
+    <span class="text-muted small reveal delay-1">F.A.Q</span>
+    <h2 class="display-5 fw-semibold mt-2 reveal delay-2" style="  font-family: DM Serif Text, serif;">Frequently Asked Questions</h2>
+    <p class="lead text-secondary col-lg-7 mx-auto reveal delay-2">
+      Mostly asked questions from our clients include:
+    </p>
+  </div>
+
+  <div class="container">
+    <div class="row g-4 justify-content-center pb-5">
+
+      <div class="col-md-6 col-lg-4 reveal delay-3">
+        <div class="card faq-card firstCard ">
+          <h3 class="tip ">What is the difference between retained search and contingency recruiting?</h3>
+          <p class="second-text">Retained search is focused on finding high-impact leaders for critical roles. Contingency recruiting typically focuses on active job seekers rather than passive executive talent.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 reveal delay-3">
+        <div class="card faq-card secondCard">
+          <p class="tip">How do you ensure cultural alignment and leadership</p>
+          <p class="second-text">We evaluate candidates using behavioral interviews and evidence-based assessments to ensure their leadership style aligns with your organization’s unique culture and ecosystem. </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 reveal delay-3">
+        <div class="card faq-card thirdCard">
+          <p class="tip">How long does a typical executive search take?</p>
+          <p class="second-text">A standard search typically takes 40 days from initial brief to offer.
+             Our partner-led process includes four key phases: market mapping and research, candidate engagement and screening, finalist interviews, and final negotiation/onboarding support.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+ <!-- Why Companies Trust Us -->
+<section class="trust-section theme-dark-bg ">
+  <div class="container">
+    <div class="row align-items-start reveal delay-1">
+
+      <!-- Left Content -->
+      <div class="col-lg-7 reveal delay-2 ">
+
+        <h2 class="trust-title">
+          Why Companies Trust Us
+        </h2>
+
+        <p class="trust-lead">
+          Our cohesive, dedicated team of professionals has worked together for over 20 years with a singular focus on delivering exceptional leaders to our executive search clients. <br> Our clients repeatedly retain our proven research, recruitment, and onboarding expertise to build their companies.
+          As evidenced by more than 80% of our work from repeat clients, our client partnerships are the cornerstone of what we do.
+        </p>
+
+        <div class="row trust-boxes">
+
+          <div class="col-lg-5 trust-box">
+            <h3>Excellence</h3>
+            <p>
+              We take pride in outstanding execution. Leveraging our large firm know-how, we apply a proven, disciplined search process with rigor and enthusiasm.
+            </p>
+          </div>
+
+          <div class="col-lg-5 trust-box">
+            <h3>Compassion</h3>
+            <p>
+              We chose this line of work because we enjoy seeing our clients and candidates succeed. We invest deeply in relationships that last, which starts with caring.
+            </p>
+          </div>
+
+          <div class="col-lg-5 trust-box">
+            <h3>Integrity</h3>
+            <p>
+              Our reputation is our livelihood. We choose to “think long” and let the golden rule govern our decisions.
+            </p>
+          </div>
+
+          <div class="col-lg-5 trust-box">
+            <h3>Candor</h3>
+            <p>
+              We take an advisory approach to our interactions. We provide candid perspective to our clients and candidates, facilitating more successful outcomes.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Right Content -->
+      <div class="col-lg-5 trust-right">
+     
+        <div class="col-lg-7 reveal delay-1">
+            <hr>
+            <h1> 45+</h1>
+            <p>Placements each year</p>
+            <hr>
+        </div>
+       
+        <div class="col-lg-7 reveal delay-2">
+             <h1> 80+</h1>
+             <p>Percentage of our searches are with repeat clients</p>
+             <hr>
+        </div>
+
+        <div class="col-lg-7 reveal delay-2">
+             <h1> 20+</h1>
+            <p>Years in business</p>
+            <hr>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- sign up -->
+<div class="container col-xl-10 col-xxl-8 px-4 py-5"> 
+  <div class="row align-items-center g-lg-5 py-5"> 
+    <div class="signUp col-lg-7 text-center text-lg-start"> 
+      <h3 class=" display-4  lh-1 text-body-emphasis mb-3 reveal delay-1" style=" font-weight:500 ; font-family: DM Serif Text, serif;">Elevate Your Leadership Journey</h3> 
+      <p class="col-lg-10 fs-4 reveal delay-2"  >Join our exclusive network of senior executives and board-level talent. Get discovered for high-impact roles at top-tier organizations.</p> 
+    </div> 
+    <div class="col-md-10 mx-auto col-lg-5 reveal delay-3"> <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary"> 
+      <div class="form-floating mb-3"> 
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"> 
+        <label for="floatingInput">Email address</label> 
+      </div> 
+      <div class="form-floating mb-3"> 
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password"> 
+        <label for="floatingPassword">Password</label> 
+      </div> 
+      <div class="checkbox mb-3"> 
+        <label> <input type="checkbox" value="remember-me"> Remember me</label>
+       </div> 
+       <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button> 
+       <hr class="my-4"> 
+       <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small> 
+       
+      </form> 
+    </div> 
+  </div> 
+</div>
+
+
+
+    <!-- footer -->
+<footer class="pageFooter py-5 border-top reveal delay-1 ">
+  <div class="container ">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-5 border-bottom  ">
+
+      <div class="col mb-3">
+        <a href="#"><img src="https://chartwellpartners.com/wp-content/uploads/2021/05/logo-white.svg" alt="CP logo"></a>
+      </div>
+
+      <div class="col mb-3"></div>
+
+      <div class="col mb-3">
+        <p>About</p>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="col mb-3">
+        <p>Expertise</p>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Financial Services</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Real Estate</a></li>
+        </ul>
+      </div>
+
+      <div class="col mb-2 pb-3">
+        <p style="color: #F5F6F8; font-size: 13px;   font-family: Fira Sans, sans-serif;">A retained executive search firm dedicated to identifying exceptional leaders.</p>
+      
+      <button class="contactUs btn btn-outline-light p-2" style="border-radius:0; font-family: Fira Sans, sans-serif; font-size: 13px;" type="button">CONTACT US</button>
+
+      </div>
+
+    </div>
+    
+
+  <div class="row mt-4 border-bottom py-3 ">
+
+  <!-- Left: Locations label -->
+  <div class="col-lg-3 ">
+    <p class="footer-title ">Locations</p>
+  </div>
+
+  <!-- Right: Main Office -->
+  <div class="col-lg-4 offset-lg-1 ps-5 footerLocation">
+    <p class="footer-subtitle">Main Office</p>
+
+    <p style="font-weight: 200; font-size:15px ;">	
+      	300 Crescent Court
+      <br>  Suite 1425
+      <br>Dallas, TX 75201		
+    </p>
+    <p class="pt-3" style="font-weight: 200; font-size:15px ;">Phone: (214) 269-1900</p>
+  </div>
+  </div>
+
+
+  <!-- social links -->
+  <div class="footer-bottom d-flex justify-content-between align-items-center">
+  <ul class="social-links d-flex align-items-center gap-3 p-0 m-0  ">
+
+    <li class="linkedin ">
+      <a href="https://www.linkedin.com/company/chartwell-partners/" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="29" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+        </svg>
+      </a>
+    </li>
+
+    <li>
+      <a href="https://twitter.com/chartwellus" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="25" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+          <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+        </svg>
+      </a>
+    </li>
+  </ul>
+
+				
+		<ul class="footer-links d-flex align-items-end gap-3 m-0 p-0" >
+			<li class="align-items-end">© 2026 All Rights Reserved.</li>
+	
+      <li><a target="_blank" href="https://tegan.io/"><img src="https://chartwellpartners.com/wp-content/themes/chartwell/images/logo-tegan.svg" alt="image description"></a></li>
+		</ul>
+			
+  </div>
+
+</div>
+  </div>
+</footer>
+
+
+
+    </div>
+  </div>
+
+
+
+<script>
+  const themeToggle = document.getElementById("darkTheme");
+
+  function setTheme(theme) {
+    document.documentElement.setAttribute("data-bs-theme", theme);
+    localStorage.setItem("theme", theme);
+  }
+
+  themeToggle.addEventListener("click", () => {
+    const currentTheme =
+      document.documentElement.getAttribute("data-bs-theme");
+
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
+
+    setTheme(newTheme);
+  });
+
+  // Load saved theme on page load
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme) {
+    setTheme(savedTheme);
+  }
+</script>
+
+
+
+<script>
+  const reveals = document.querySelectorAll(".reveal");
+
+  const revealOnScroll = () => {
+    const windowHeight = window.innerHeight;
+    const revealPoint = 120;
+
+    reveals.forEach(el => {
+      const elementTop = el.getBoundingClientRect().top;
+
+      if (elementTop < windowHeight - revealPoint) {
+        el.classList.add("active");
+      }
+    });
+  };
+
+  window.addEventListener("scroll", revealOnScroll);
+  revealOnScroll(); 
+</script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
