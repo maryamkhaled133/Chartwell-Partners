@@ -80,7 +80,7 @@ getBoundingClientRect()
 - Smooth transitions
 
 
-Pathline Training Session codes 👩🏻‍💻: 
+👩🏻‍💻 Pathline Training Session codes: 
 - Pta-000
 - Pta-001
 - Pta-111
