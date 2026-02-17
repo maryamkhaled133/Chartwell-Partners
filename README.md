@@ -1,12 +1,15 @@
 # Chartwell-Partners
-Frontend practice project inspired by the Chartwell Partners homepage, rebuilt with custom UI enhancements, smooth animations, improved navigation behaviour , and interactive JavaScript features.
+Frontend practice project inspired by the Chartwell Partners homepage, rebuilt with custom UI enhancements, smooth animations, improved navigation behaviour ,and interactive JavaScript features.
+
+🌐 Live Demo:
+https://maryamkhaled133.github.io/Chartwell-Partners/
 
 This project is a responsive corporate website built using HTML, CSS, JavaScript, and Bootstrap, with a focus on modern UI/UX design and interactive features.
 The goal was to go beyond default framework styling and implement custom animations, enhanced navigation behaviour, and smooth user interactions.
 
-📌 Feature Documentation
+## 📌 Feature Documentation
 
-🌙 1. Dark Theme Toggle
+### 🌙 1. Dark Theme Toggle
 - A dynamic theme toggle allows users to switch between light mode and dark mode for improved accessibility and user preference.
 
 How It Works:
@@ -14,7 +17,7 @@ How It Works:
 - Uses JavaScript to toggle a theme class on the <body>.
 - Smooth transitions applied for background and text colour changes.
 
-📊 2. Insights Section
+### 📊 2. Insights Section
 - The Insights section highlights company expertise, industry knowledge, or valuable information for visitors.
 
 Features Implemented:
@@ -23,7 +26,7 @@ Features Implemented:
 - Clean typography hierarchy
 - Subtle hover effects on cards
 
-🏢 3. About Us Section
+### 🏢 3. About Us Section
 - The About Us section introduces the firm, its background, and its areas of specialization.
 
 Features Added:
@@ -32,7 +35,7 @@ Features Added:
 - Improved typography spacing
 - Visual balance between text and image
 
-❓ 4. FAQ Section
+### ❓ 4. FAQ Section
 - The Frequently Asked Questions section provides answers to common client inquiries.
 
 Features Added:
@@ -42,7 +45,7 @@ Features Added:
 - Responsive stacking for mobile
 
 
-⭐ 5. Testimonials Section
+### ⭐ 5. Testimonials Section
 - Displays feedback from previous clients to build credibility and trust.
 
 Enhancements:
@@ -52,10 +55,7 @@ Enhancements:
 - Consistent spacing and typography
 
 
-✍🏻 6. Sign-Up Section
-- Encourages users to subscribe or get in touch with the firm.
-
-Features Implemented:
+### ✍🏻 6. Sign-Up Section
 - Modern input styling
 - Expanding search/input animation
 - Smooth hover and focus transitions
@@ -63,11 +63,11 @@ Features Implemented:
 
 
 
-🚀 Technical Enhancements Across the Site
+### 🚀 Technical Enhancements Across the Site
 
 ✔ Scroll-Based Animations
 - Elements animate when entering viewport using:
-getBoundingClientRect()
+`getBoundingClientRect()`
 
 ✔ Smooth Navbar Dropdowns
 - Click-based opening
@@ -80,7 +80,7 @@ getBoundingClientRect()
 - Smooth transitions
 
 
-👩🏻‍💻 Pathline Training Session codes: 
+### 👩🏻‍💻 Pathline Training Session codes: 
 - Pta-000
 - Pta-001
 - Pta-111
